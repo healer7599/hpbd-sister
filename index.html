@@ -18,6 +18,10 @@
         position: absolute;
         margin: 10;
     }
+    #player {
+        position: absolute;
+        bottom: 0px;
+    }
 </style>
 
 <body>
@@ -28,6 +32,11 @@
        
     </div>
 
+    <div id="player"> 
+        <audio controls>
+          <source src="https://github.com/healer7599/hpbd-sister/blob/main/sound_2.mp3?raw=true" type="audio/mp3">
+        </audio>
+    </div>
     <script type="module">
         import * as THREE from "https://cdn.skypack.dev/three@0.136.0";
         import { OrbitControls } from "https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls";
@@ -153,9 +162,7 @@
 //         audio.play();
     </script>
     
-     <audio controls>
-      <source src="https://github.com/healer7599/hpbd-sister/blob/main/sound_2.mp3?raw=true" type="audio/mp3">
-    </audio>
+ 
 </body>
 
 </html>
